@@ -7,10 +7,12 @@
     <style>
       table,
       th,
-      td {
+      td,
+      form {
         border: 1px solid grey;
         padding: 10px;
         border-collapse: collapse;
+        background-color: #0094c8;
       }
       td {
         text-align: center;
@@ -82,26 +84,52 @@
       </table>
       <form>
         <label for="total-servings">Total Servings</label>
-        <input type="text" name="total-servings" id="total-servings" />
+        <input
+          placeholder="total servings"
+          type="text"
+          name="total-servings"
+          id="total-servings"
+        />
         <button type="submit">Submit</button><br />
         <label for="serving-size">Serving Size</label>
-        <input type="text" name="serving-size" id="serving-size" />
+        <input
+          placeholder="serving"
+          type="text"
+          name="serving-size"
+          id="serving-size"
+        />
         <button type="submit">Submit</button><br />
         <label for="calories-per-serving">Calories Per Serving</label>
         <input
+          placeholder="calories"
           type="text"
           name="calories-per-serving"
           id="calories-per-serving"
         />
         <button type="submit">Submit</button><br />
         <label for="carbs-per-serving">Carbs Per Serving</label>
-        <input type="text" name="carbs-per-serving" id="carbs-per-serving" />
+        <input
+          placeholder="carbs"
+          type="text"
+          name="carbs-per-serving"
+          id="carbs-per-serving"
+        />
         <button type="submit">Submit</button><br />
         <label for="sugars-per-serving">Sugars Per Serving</label>
-        <input type="text" name="sugars-per-serving" id="sugars-per-serving" />
+        <input
+          placeholder="sugar per serving"
+          type="text"
+          name="sugars-per-serving"
+          id="sugars-per-serving"
+        />
         <button type="submit">Submit</button><br />
         <label for="sodium">Sodium Per Serving</label>
-        <input type="text" name="sodium" id="soium" />
+        <input
+          placeholder="sodium intake"
+          type="text"
+          name="sodium"
+          id="soium"
+        />
         <button type="submit">Submit</button><br />
       </form>
     </main>
